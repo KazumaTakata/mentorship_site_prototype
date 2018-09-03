@@ -1,0 +1,33 @@
+button{
+  font-size: 2.5rem;
+  font-weight: 200;
+  background: $green-color;
+  color: white;
+  border: 0;
+  border-radius: 1.5rem;
+  padding: 1rem 4rem;
+  outline: none;
+  opacity: 1;
+
+  &:hover {
+    background: lighten($green-color, 10%);
+  }
+  &.button-skelton {
+    border-radius: .1rem;
+    font-weight: 400;
+    background: transparent;
+    border: 1px solid $text-color;
+    color: $text-color;
+
+    &:hover {
+      border: 1px solid $red-color;
+      color: $red-color;
+    }
+  }
+
+
+}
+
+.stripe-button-el {
+  display: none;
+}

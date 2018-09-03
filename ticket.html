@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+  </head>
+  <body>
+    <div class="container">
+    <header><span class="logo">FMentor</span><span class="logo right">Login</span></header>
+
+    <div class="row-textcenter">
+      <h2>Ticket</h2>
+    </div>
+
+
+    <script src="https://js.stripe.com/v3/"></script>
+
+    <div class="form-container">
+    <form action="/charge" method="post" id="payment-form">
+      <div class="form-row">
+        <label for="card-element">
+          Credit or debit card
+        </label>
+        <div id="card-element">
+          <!-- A Stripe Element will be inserted here. -->
+        </div>
+        <!-- Used to display form errors. -->
+        <div id="card-errors" role="alert"></div>
+      </div>
+
+      <button>Submit Payment</button>
+    </form>
+    </div>
+
+    <script src="./js/stripe.js"></script>
+    <footer>&copy; 2018 FMentor</footer>
+    </div>
+
+  </body>
+</html>

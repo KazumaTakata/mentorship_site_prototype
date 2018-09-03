@@ -1,0 +1,94 @@
+
+.button-container{
+  text-align: center;
+  margin-top: 40px;
+}
+
+@media  (max-width: 789px){
+  .button-container{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+.profile-container-out{
+  margin-top: 40px;
+  width: 80%;
+  margin: auto;
+}
+
+form {
+  width: 100%;
+  margin-top: 4rem;
+
+  div {
+    font-size: 3rem;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    font-size: 2rem;
+    padding: 1rem;
+    outline: none;
+    border: 1px solid lighten($text-color, 40%);
+    border-radius: .5rem;
+
+    &[type=text]:focus {
+      border: 1px solid $red-color;
+    }
+  }
+
+  input[type="submit"] {
+    width: 100%;
+    font-size: 2rem;
+    padding: 1rem;
+    outline: none;
+    border: 2px solid $color-secondary;
+    color: $color-secondary;
+    border-radius: .5rem;
+
+    &[type=text]:focus {
+      border: 1px solid $red-color;
+    }
+  }
+
+
+  textarea{
+    width: 100%;
+    resize: none;
+    height: 10rem;
+    font-size: 1.5rem;
+    outline: none;
+    border: 1px solid lighten($text-color, 40%);
+    border-radius: .5rem;
+
+    &:focus {
+      border: 1px solid $red-color;
+    }
+  }
+}
+
+.pic-container {
+  text-align: center;
+  margin-top: 5rem;
+  img {
+    height: 10rem;
+    width: 10rem;
+    object-fit: cover;
+    border-radius: 5rem;
+  }
+}
+
+.profile-container{
+  width: 80%;
+  margin: auto;
+
+  .profile-detail{
+    text-align: center;
+  }
+}
+
+.profile-content {
+    margin: 30px;
+}

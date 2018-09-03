@@ -1,0 +1,64 @@
+.logo{
+  margin-left: 5px;
+  font-weight: 400;
+
+  &.right {
+    float: right;
+  }
+}
+
+header {
+  padding: 25px;
+  box-shadow:  1px 1px 1px $text-color;
+}
+
+
+.hero-area {
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+
+  &.mini {
+    height: 140px;
+
+    .page-title-main{
+      font-weight: 300;
+      font-size: 3rem
+    }
+  }
+}
+
+.hero-area img {
+  width: 100%;
+  filter: grayscale(60%);
+}
+
+.page-title{
+  position: absolute;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background: rgba($text-color, .7);
+}
+
+.page-title-main{
+  font-size: 5rem;
+  font-weight: 400;
+  padding-top: 50px;
+}
+
+.page-title-sub{
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.mentorlist-title{
+  font-size: 5rem;
+  padding: 3rem;
+  text-align: center;
+  color: white;
+  background: linear-gradient(to right, #5236c5 , #b400ff);
+}

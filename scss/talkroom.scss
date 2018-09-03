@@ -1,0 +1,45 @@
+.talk-container {
+  width: 60%;
+  margin: auto;
+  margin-top: 10rem;
+}
+
+.talk-me {
+  background: $green-color;
+  width: 40%;
+  text-align: center;
+  color: white;
+  border-radius: .5rem;
+  padding: 1rem;
+  word-wrap: break-word;
+}
+
+.talk-you {
+  margin: 4rem;
+  float: right;
+  background: $green-color;
+  width: 40%;
+  text-align: center;
+  color: white;
+  border-radius: .5rem;
+  padding: 1rem;
+  word-wrap: break-word;
+}
+
+.chatinputcontainer{
+  display: flex;
+  position:  absolute;
+  bottom: 105px;
+  padding: 15px 0;
+  width: 90%;
+  left: 50%;
+  transform: translate(-50%, 0);
+
+  input {
+    width: 100%;
+    border-radius: 1rem;
+    border: 1px solid $text-color;
+    outline: none;
+    font-size: 2rem;
+  }
+}

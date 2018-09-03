@@ -1,0 +1,13 @@
+span {
+  vertical-align: middle;
+  line-height: 3rem; }
+
+header {
+  height: 500px; }
+
+img {
+  display: inline-block; }
+
+.loginButton{
+  float: right;
+}
